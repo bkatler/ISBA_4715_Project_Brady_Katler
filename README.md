@@ -15,5 +15,12 @@ This data came from a Web Scrape of Orbital Launches using https://space.skyrock
 
 The web scrape was fairly straight forward as there were only six columns which contained information on launch date, location, and vehicles. As for the API, I used the sample documentation on the Alpha Vantage website and simply altered the parameters so that it gathered the specific stock that I wanted. Using the Time Series Monthly function, I was able to get monthly stock opening, closing, and adjusted prices.
 
-# Notebooks:
-[API ETL](./notebooks/API_ETL.ipynb)
+# Notebooks
+[API ETL](./notebooks/API_ETL.ipynb), Shows the process of Extracting, Transforming, and Loading API Data,
+[Web Scrape ETL](./notebooks/Web_Scrape_ETL.ipynb), Shows the process of Extracting, Transforming, and Loading Web Scrape Data,
+[API SQL Analysis](./notebooks/API_SQL_Analysis.ipynb), Notebook where I load the API data into my database and conduct a SQL analysis using Pandas,
+[Web Scrape Analysis](./notebooks/Web_Scrape_SQL_Analysis.ipynb), Notebook where I load the Web Scrape data into my database and conduct a SQL analysis using Pandas
+
+# Future Improvemnets
+  1. Launch a further investigation into LMT to see why they are more successful. Evaluate how their company is operating differently from their competitiors by analyzing product offerings, leadership style, customer base, and more.
+  2. Take a closer look at the speciifc launch stations and vehicles that performed well from the web scrape. More diagnostic data would help make the insights more meaningful.
