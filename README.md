@@ -16,3 +16,4 @@ This data came from a Web Scrape of Orbital Launches using https://space.skyrock
 The web scrape was fairly straight forward as there were only six columns which contained information on launch date, location, and vehicles. As for the API, I used the sample documentation on the Alpha Vantage website and simply altered the parameters so that it gathered the specific stock that I wanted. Using the Time Series Monthly function, I was able to get monthly stock opening, closing, and adjusted prices.
 
 # Notebooks:
+[API ETL](./notebooks/API_ETL.ipynb)
