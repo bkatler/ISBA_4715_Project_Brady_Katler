@@ -1,4 +1,4 @@
-# ISBA_4715_Project_Brady_Katler
+# Trends in Aerospace and Defense
 
 # Project Objective
 The aerospace and defense industry is one that I am not regularly following or engaging with on a deep level. For this project, I intend to begin with a broad analysis that can lead to deeper trends or analysis in the industry in the future. I will accomplish this by gathering data through an API and web scrape, loading it into a database, and performing a SQL analysis to generate insights.
